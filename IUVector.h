@@ -31,12 +31,10 @@ public:
     {
         if (this == &_IUVector)
             return *this;
-        else {
         delete [] collection;
         dim = _IUVector.dim;
         collection = new double [dim];
         memcpy(collection, _IUVector.collection, dim * sizeof(double));
-        }
         return *this;
     }
 
