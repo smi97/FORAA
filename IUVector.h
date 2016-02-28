@@ -8,8 +8,9 @@ class IUVector{
     double * collection;
     int dim;
 public:
-    IUVector(){
-        dim = 0;
+    IUVector()
+        :dim(0)
+    {
         collection = new double [dim];
     }
 
@@ -42,17 +43,15 @@ public:
         double * temp = new double [dim];
         memcpy(temp, collection, dim * sizeof(double));
         delete [] collection;
+        collection = new double [++dim];
         if (index == dim){
-            collection = new double [++dim];
             memcpy(collection, temp, index * sizeof(double));
             collection[index] = el;
         }
         else {
-            collection = new double [++dim];
             if (index == 0){
                 collection[0] = el;
-                for(int i = 1; i < dim; i++)
-                    collection[i] = temp[i-1];
+                memcpy(collection + 1, temp, dim * sizeof(double));
             }
             else {
                 memcpy(collection, temp, index * sizeof(double));
@@ -66,6 +65,13 @@ public:
 
     int size(){
         return dim;
+    }
+
+    bool empty(){
+        if (dim == 0)
+            return true;
+        else
+            return false;
     }
 
     double & operator[](int index){
