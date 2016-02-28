@@ -44,22 +44,9 @@ public:
         memcpy(temp, collection, dim * sizeof(double));
         delete [] collection;
         collection = new double [++dim];
-        if (index == dim){
-            memcpy(collection, temp, index * sizeof(double));
-            collection[index] = el;
-        }
-        else {
-            if (index == 0){
-                collection[0] = el;
-                memcpy(collection + 1, temp, dim * sizeof(double));
-            }
-            else {
-                memcpy(collection, temp, index * sizeof(double));
-                collection[index] = el;
-                for(int i = index + 1; i < dim; i++)
-                    collection[i] = temp[i-1];
-            }
-        }
+        collection[index] = el;
+        memcpy(collection, temp, index * sizeof(double));
+        memcpy(collection + index + 1, temp + index, (dim - index) * sizeof(double));
         delete [] temp;
     }
 
