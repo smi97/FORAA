@@ -39,7 +39,7 @@ public:
         return *this;
     }
 
-    void push(double el, int index){
+    void insert(double el, int index){
         double * temp = new double [dim];
         memcpy(temp, collection, dim * sizeof(double));
         delete [] collection;
