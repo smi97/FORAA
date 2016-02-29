@@ -40,14 +40,12 @@ public:
     }
 
     void insert(double el, int index){
-        double * temp = new double [dim];
-        memcpy(temp, collection, dim * sizeof(double));
+        IUVector temp(*this);
         delete [] collection;
         collection = new double [++dim];
         collection[index] = el;
-        memcpy(collection, temp, index * sizeof(double));
-        memcpy(collection + index + 1, temp + index, (dim - index) * sizeof(double));
-        delete [] temp;
+        memcpy(collection, temp.collection, index * sizeof(double));
+        memcpy(collection + index + 1, temp.collection + index, (dim - index) * sizeof(double));
     }
 
     int size(){
