@@ -2,7 +2,6 @@
 #include <iostream>
 #define STUDENT_VARIANT 19
 
-using namespace std;
 
 class IUVector{
     double * collection;
@@ -63,7 +62,7 @@ public:
         return collection[index];
     }
 
-    friend ostream& operator<<(ostream&, const IUVector&);
+    friend std::ostream& operator<<(std::ostream&, const IUVector&);
 
     friend double operator*(double *, const IUVector&);
 
@@ -75,9 +74,9 @@ public:
 
 };
 
-ostream& operator<<(ostream& os, const IUVector& _IUVector){
+std::ostream& operator<<(std::ostream& os, const IUVector& _IUVector){
     for(int i = 0; i < _IUVector.dim; i++)
-        cout << _IUVector.collection[i] << " ";
+        std::cout << _IUVector.collection[i] << " ";
     return os;
 }
 
