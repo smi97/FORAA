@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 
 int gcdex(int a, int b, int &x, int &y){
     if(a == 0){
