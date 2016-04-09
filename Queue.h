@@ -4,51 +4,48 @@
 
 class Queue {
 private:
-    struct Que
-    {
         int el;
-        Que *beg, *next, *end;
-    } *queue;
+        Queue *beg, *next, *end;
 public:
     Queue()
     {
-        queue = new Que;
-        queue->beg = nullptr;
-        queue->end = nullptr;
+        next = nullptr;
+        beg = nullptr;
+        end = nullptr;
     }
 
     void push(int iEl)
     {
-        Que *tmp = new Que;
+        Queue *tmp = new Queue;
         tmp->next = nullptr;
         tmp->el = iEl;
-        if(queue->end != nullptr)
-            queue->end->next = tmp;
+        if(end != nullptr)
+            end->next = tmp;
         else
-            queue->beg = tmp;
-        queue->end = tmp;
+            beg = tmp;
+        end = tmp;
     }
 
     int get() const
     {
-        return queue->beg->el;
+        return beg->el;
     }
 
     int pop(int *iEl)
     {
-        if(queue->beg == nullptr) return 0;
-        Que *tmp;
-        tmp = queue->beg;
+        if(beg == nullptr) return 0;
+        Queue *tmp;
+        tmp = beg;
         *iEl = tmp->el;
-        queue->beg = tmp->next;
+        beg = tmp->next;
         free(tmp);
-        if(queue->beg == nullptr) queue->end = nullptr;
+        if(beg == nullptr) end = nullptr;
         return 1;
     }
 
     bool isEmpty()
     {
-        if(queue->beg == nullptr) return true;
+        if(beg == nullptr) return true;
         return false;
     }
 };
