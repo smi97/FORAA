@@ -1,0 +1,30 @@
+Plane: 
+Airbus A394-653Boarding person: 
+Jack Taylor
+Refueller: 
+William Lee
+Flight began
+
+ Log: 
+
+Electronics problem solved!
+
+Electronics problem solved!
+
+High turbulence!
+
+All systems are ok!
+
+Electronics problem solved!
+
+High turbulence!
+
+High turbulence!
+
+Electronics problem solved!
+
+High turbulence!
+
+High turbulence!
+
+End of flight

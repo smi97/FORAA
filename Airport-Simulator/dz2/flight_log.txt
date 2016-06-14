@@ -1,0 +1,40 @@
+Plane: 
+Simple_Plane 
+Boarding person: 
+Simple_Inside_Worker 
+Refueller: 
+Simple_Outside_Worker
+Destination: 
+Simple_Destination
+Distance: 
+1000 
+
+Flight began
+
+ Log: 
+
+Electronics problem solved!
+
+Passenger went bad!
+
+Doctors helped
+
+Passenger went bad!
+
+Doctors helped
+
+High turbulence!
+
+All systems are ok!
+
+All systems are ok!
+
+Electronics problem solved!
+
+Electronics problem solved!
+
+Electronics problem solved!
+
+Electronics problem solved!
+
+End of flight

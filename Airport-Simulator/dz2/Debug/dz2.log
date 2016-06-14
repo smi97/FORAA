@@ -1,0 +1,12 @@
+﻿  dz2.cpp
+\\mac\home\downloads\desktop\projects\dz2\dz2\dz2.cpp(54): warning C4273: SetTimer: несовместимая компоновка dll
+  c:\program files (x86)\windows kits\8.1\include\um\winuser.h(6642): note: см. предыдущее определение "SetTimer"
+\\mac\home\downloads\desktop\projects\dz2\dz2\dz2.cpp(173): warning C4101: Bitmap: неиспользованная локальная переменная
+\\mac\home\downloads\desktop\projects\dz2\dz2\dz2.cpp(171): warning C4101: hOldBitmap: неиспользованная локальная переменная
+\\mac\home\downloads\desktop\projects\dz2\dz2\dz2.cpp(169): warning C4101: hDC: неиспользованная локальная переменная
+\\mac\home\downloads\desktop\projects\dz2\dz2\dz2.cpp(169): warning C4101: hCompatibleDC: неиспользованная локальная переменная
+\\mac\home\downloads\desktop\projects\dz2\dz2\dz2.cpp(172): warning C4101: Rect: неиспользованная локальная переменная
+\\mac\home\downloads\desktop\projects\dz2\dz2\dz2.cpp(171): warning C4101: hBitmap: неиспользованная локальная переменная
+\\mac\home\downloads\desktop\projects\dz2\dz2\dz2.cpp(170): warning C4101: PaintStruct: неиспользованная локальная переменная
+\\mac\home\downloads\desktop\projects\dz2\dz2\dz2.cpp(846): warning C4018: <: несоответствие типов со знаком и без знака
+  dz2.vcxproj -> \\Mac\Home\Downloads\Desktop\Projects\dz2\Debug\dz2.exe
