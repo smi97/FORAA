@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Maxim/Desktop
+CMAKE_SOURCE_DIR = /Users/Maxim/Desktop/3_sem/Lab_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Maxim/Desktop/build
+CMAKE_BINARY_DIR = /Users/Maxim/Desktop/3_sem/Lab_1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/phw.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/phw.dir/flags.make
 
 CMakeFiles/phw.dir/sources/print_hello_world.cpp.o: CMakeFiles/phw.dir/flags.make
 CMakeFiles/phw.dir/sources/print_hello_world.cpp.o: ../sources/print_hello_world.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maxim/Desktop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/phw.dir/sources/print_hello_world.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/phw.dir/sources/print_hello_world.cpp.o -c /Users/Maxim/Desktop/sources/print_hello_world.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maxim/Desktop/3_sem/Lab_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/phw.dir/sources/print_hello_world.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/phw.dir/sources/print_hello_world.cpp.o -c /Users/Maxim/Desktop/3_sem/Lab_1/sources/print_hello_world.cpp
 
 CMakeFiles/phw.dir/sources/print_hello_world.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phw.dir/sources/print_hello_world.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Maxim/Desktop/sources/print_hello_world.cpp > CMakeFiles/phw.dir/sources/print_hello_world.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Maxim/Desktop/3_sem/Lab_1/sources/print_hello_world.cpp > CMakeFiles/phw.dir/sources/print_hello_world.cpp.i
 
 CMakeFiles/phw.dir/sources/print_hello_world.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phw.dir/sources/print_hello_world.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Maxim/Desktop/sources/print_hello_world.cpp -o CMakeFiles/phw.dir/sources/print_hello_world.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Maxim/Desktop/3_sem/Lab_1/sources/print_hello_world.cpp -o CMakeFiles/phw.dir/sources/print_hello_world.cpp.s
 
 CMakeFiles/phw.dir/sources/print_hello_world.cpp.o.requires:
 
@@ -91,7 +91,7 @@ phw_EXTERNAL_OBJECTS =
 libphw.a: CMakeFiles/phw.dir/sources/print_hello_world.cpp.o
 libphw.a: CMakeFiles/phw.dir/build.make
 libphw.a: CMakeFiles/phw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Maxim/Desktop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libphw.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Maxim/Desktop/3_sem/Lab_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libphw.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/phw.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/phw.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/phw.dir/clean:
 .PHONY : CMakeFiles/phw.dir/clean
 
 CMakeFiles/phw.dir/depend:
-	cd /Users/Maxim/Desktop/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Maxim/Desktop /Users/Maxim/Desktop /Users/Maxim/Desktop/build /Users/Maxim/Desktop/build /Users/Maxim/Desktop/build/CMakeFiles/phw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Maxim/Desktop/3_sem/Lab_1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Maxim/Desktop/3_sem/Lab_1 /Users/Maxim/Desktop/3_sem/Lab_1 /Users/Maxim/Desktop/3_sem/Lab_1/build /Users/Maxim/Desktop/3_sem/Lab_1/build /Users/Maxim/Desktop/3_sem/Lab_1/build/CMakeFiles/phw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/phw.dir/depend
 

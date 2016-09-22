@@ -1,4 +1,4 @@
-/Users/Maxim/Desktop/build/CMakeFiles/edit_cache.dir
-/Users/Maxim/Desktop/build/CMakeFiles/rebuild_cache.dir
-/Users/Maxim/Desktop/build/CMakeFiles/main.dir
-/Users/Maxim/Desktop/build/CMakeFiles/phw.dir
+/Users/Maxim/Desktop/3_sem/Lab_1/build/CMakeFiles/edit_cache.dir
+/Users/Maxim/Desktop/3_sem/Lab_1/build/CMakeFiles/rebuild_cache.dir
+/Users/Maxim/Desktop/3_sem/Lab_1/build/CMakeFiles/main.dir
+/Users/Maxim/Desktop/3_sem/Lab_1/build/CMakeFiles/phw.dir

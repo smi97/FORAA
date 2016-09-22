@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Maxim/Desktop
+# Install script for directory: /Users/Maxim/Desktop/3_sem/Lab_1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Maxim/Desktop/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/Maxim/Desktop/3_sem/Lab_1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

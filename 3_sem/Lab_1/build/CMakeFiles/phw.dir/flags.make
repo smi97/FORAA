@@ -6,5 +6,5 @@ CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/Maxim/Desktop/include 
+CXX_INCLUDES = -I/Users/Maxim/Desktop/3_sem/Lab_1/include 
 
