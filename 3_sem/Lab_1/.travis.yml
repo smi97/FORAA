@@ -2,6 +2,7 @@ language: c++
 matrix:
   include:
     - os: osx
+      sudo: required
       compiler: g++-5
       env: COMPILER=g++ -std=c++11
 
