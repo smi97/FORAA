@@ -1,0 +1,10 @@
+language: c++
+matrix:
+  include:
+    - os: osx
+      compiler: g++-5
+      env: COMPILER=g++ -std=c++11
+
+script:
+  - mkdir build && cd build
+  - cmake .. && make
